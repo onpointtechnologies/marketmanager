@@ -1,0 +1,53 @@
+﻿#dOX {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 470px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.vendor {
+    clear: both;
+    border-top: 1px dotted #C8D172;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+    .vendor a {
+        display: block !important;
+        color: #395952;
+        text-decoration: none;
+    }
+
+        .vendor a:hover {
+            background-color: #EDECCC;
+        }
+
+.vendorinfo {
+    display: none;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px;
+}
+
+.avail {
+    width: 50px;
+    background-color: #C8D172;
+}
+
+.noavail {
+    width: 50px;
+    background-color: #F7F8E9;
+}
+
+a {
+    cursor: pointer;
+}
